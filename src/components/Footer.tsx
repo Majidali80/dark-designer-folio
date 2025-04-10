@@ -10,13 +10,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-gradient">Idress</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gradient">Idrees</h3>
             <p className="text-gray-400 mb-6">
               Creating stunning visual experiences that elevate brands and captivate audiences.
             </p>
             <div className="flex space-x-4">
               <SocialLink href="https://www.fiverr.com/s/7Ylpdbk" icon={<FiverrIcon size={20} />} label="Fiverr" />
-              <SocialLink href="https://github.com" icon={<Github size={20} />} label="GitHub" />
               <SocialLink href="https://instagram.com" icon={<Instagram size={20} />} label="Instagram" />
             </div>
           </div>
