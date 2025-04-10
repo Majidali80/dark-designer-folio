@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import ProjectCard from '@/components/ProjectCard';
 import Footer from '@/components/Footer';
+import { Palette } from 'lucide-react';
 
 const projectData = [
   {
