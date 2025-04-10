@@ -9,34 +9,34 @@ import { Palette } from 'lucide-react';
 
 const projectData = [
   {
-    title: "Brand Identity System",
-    category: "Branding",
-    image: "https://images.unsplash.com/photo-1541462608143-67571c6738dd?auto=format&fit=crop&q=80&w=1470"
+    title: "Golf Tournament Flyer",
+    category: "Sports Event Design",
+    image: "/lovable-uploads/787d6a7c-ce2b-4d1b-8ad7-de8869c84373.png"
   },
   {
-    title: "Digital Illustration Series",
-    category: "Illustration",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1964"
+    title: "Cryptocurrency Flyer",
+    category: "Digital Marketing",
+    image: "/lovable-uploads/364c7649-c6dc-4b62-8bd5-e914b091438d.png"
   },
   {
-    title: "Mobile App UI Design",
-    category: "UI/UX Design",
-    image: "https://images.unsplash.com/photo-1616763355548-1b606f439f86?auto=format&fit=crop&q=80&w=1470"
+    title: "CV/Resume Design",
+    category: "Personal Branding",
+    image: "/lovable-uploads/30c29be0-9436-47e1-9e0e-cad286158a1b.png"
   },
   {
-    title: "Magazine Layout",
+    title: "Golf Tournament Demographics",
+    category: "Sports Event Design",
+    image: "/lovable-uploads/ac2d43a2-fa62-4315-b5db-69c8ecdcc47f.png"
+  },
+  {
+    title: "Poster Design",
     category: "Print Design",
-    image: "https://images.unsplash.com/photo-1544819667-9bfc1de23d4e?auto=format&fit=crop&q=80&w=1374"
+    image: "/lovable-uploads/07ff252f-640c-48f4-8701-3c0e250fca1b.png"
   },
   {
-    title: "Packaging Redesign",
-    category: "Packaging",
-    image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=1470"
-  },
-  {
-    title: "Web Design Project",
-    category: "Web Design",
-    image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&q=80&w=1470"
+    title: "Social Media Graphics",
+    category: "Digital Marketing",
+    image: "/lovable-uploads/4527e577-fca7-406f-97dc-77dd6a3550af.png"
   }
 ];
 
@@ -87,20 +87,20 @@ const Index = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
               <ServiceCard 
-                title="Brand Identity" 
-                description="Complete branding solutions including logos, color schemes, typography, and brand guidelines."
+                title="Resume Design" 
+                description="Professional and eye-catching resume layouts that help you stand out in the job market."
                 icon={<Palette size={40} />}
               />
               
               <ServiceCard 
-                title="UI/UX Design" 
-                description="User-centered interfaces for web and mobile applications with intuitive navigation and beautiful aesthetics."
+                title="Sports Flyer Design" 
+                description="Engaging flyers for golf tournaments and sporting events that attract participants and sponsors."
                 icon={<Palette size={40} />}
               />
               
               <ServiceCard 
-                title="Print & Digital" 
-                description="From marketing materials to digital assets, creating cohesive visual solutions across all mediums."
+                title="Social Media Design" 
+                description="Attractive graphics and posts optimized for various social platforms to boost your online presence."
                 icon={<Palette size={40} />}
               />
             </div>

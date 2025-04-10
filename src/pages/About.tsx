@@ -1,3 +1,4 @@
+
 import { useEffect } from 'react';
 import ParticleBackground from '@/components/ParticleBackground';
 import Navbar from '@/components/Navbar';
@@ -28,8 +29,8 @@ const About = () => {
               <div className="md:col-span-2">
                 <div className="relative rounded-xl overflow-hidden aspect-square opacity-0 animate-text-reveal animate-delay-1">
                   <img 
-                    src="https://images.unsplash.com/photo-1549068106-b024baf5062d?auto=format&fit=crop&q=80&w=987" 
-                    alt="Ali Majid - Graphic Designer" 
+                    src="/lovable-uploads/80f6b18d-5636-4b21-9db8-2d61f5c6b7c1.png" 
+                    alt="Idress - Graphic Designer" 
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-design-purple/70 to-transparent"></div>
@@ -38,15 +39,15 @@ const About = () => {
               
               <div className="md:col-span-3">
                 <p className="text-lg text-gray-300 mb-6 opacity-0 animate-text-reveal animate-delay-2">
-                  Hello! I'm Ali, a passionate graphic designer with over 8 years of experience in creating visual identities and digital experiences that captivate audiences and elevate brands.
+                  Hello! I'm Idress, a passionate graphic designer with expertise in creating visual identities and digital experiences that captivate audiences and elevate brands.
                 </p>
                 
                 <p className="text-gray-400 mb-6 opacity-0 animate-text-reveal animate-delay-3">
-                  I specialize in brand identity, UI/UX design, print design, and digital illustrations. My approach combines creativity with strategic thinking to create designs that not only look beautiful but also effectively communicate your message.
+                  As a professional graphic designer and IT graduate with 5 years of experience, I specialize in crafting captivating visuals using tools like Photoshop, Illustrator, Canva, and AI Midjourney. My expertise spans branding, digital art, and event promotion, and I'm adept at creating designs that are both engaging and strategically aligned with client goals.
                 </p>
                 
                 <p className="text-gray-400 mb-8 opacity-0 animate-text-reveal animate-delay-3">
-                  With a background in both traditional and digital design, I bring a unique perspective to every project. I've worked with clients ranging from startups to established businesses across various industries.
+                  With a strong foundation in both technical skills and creative insight, I deliver high-quality, detail-oriented designs that leave a lasting impact across various platforms and industries.
                 </p>
                 
                 <div className="grid grid-cols-2 gap-4 opacity-0 animate-text-reveal animate-delay-4">
@@ -55,15 +56,15 @@ const About = () => {
                     <ul className="space-y-2 text-gray-300">
                       <li className="flex items-center">
                         <ArrowRight size={16} className="mr-2 text-design-teal" />
-                        Brand Identity
+                        Resume Design
                       </li>
                       <li className="flex items-center">
                         <ArrowRight size={16} className="mr-2 text-design-teal" />
-                        UI/UX Design
+                        Sports Flyer Design
                       </li>
                       <li className="flex items-center">
                         <ArrowRight size={16} className="mr-2 text-design-teal" />
-                        Print Design
+                        Social Media Design
                       </li>
                     </ul>
                   </div>
@@ -76,11 +77,11 @@ const About = () => {
                       </li>
                       <li className="flex items-center">
                         <ArrowRight size={16} className="mr-2 text-design-teal" />
-                        Figma
+                        Canva
                       </li>
                       <li className="flex items-center">
                         <ArrowRight size={16} className="mr-2 text-design-teal" />
-                        Procreate
+                        AI Midjourney
                       </li>
                     </ul>
                   </div>
@@ -123,7 +124,7 @@ const About = () => {
               icon={<FiverrIcon size={24} />}
               title="Fiverr"
               info="Order Design Services"
-              link="https://fiverr.com"
+              link="https://www.fiverr.com/s/7Ylpdbk"
               color="from-green-500 to-green-600"
             />
             

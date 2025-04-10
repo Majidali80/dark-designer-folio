@@ -1,3 +1,4 @@
+
 import { Github, Instagram } from 'lucide-react';
 import FiverrIcon from './FiverrIcon';
 
@@ -9,12 +10,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-gradient">Ali.Design</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gradient">Idress.Design</h3>
             <p className="text-gray-400 mb-6">
               Creating stunning visual experiences that elevate brands and captivate audiences.
             </p>
             <div className="flex space-x-4">
-              <SocialLink href="https://fiverr.com" icon={<FiverrIcon size={20} />} label="Fiverr" />
+              <SocialLink href="https://www.fiverr.com/s/7Ylpdbk" icon={<FiverrIcon size={20} />} label="Fiverr" />
               <SocialLink href="https://github.com" icon={<Github size={20} />} label="GitHub" />
               <SocialLink href="https://instagram.com" icon={<Instagram size={20} />} label="Instagram" />
             </div>
@@ -58,7 +59,17 @@ const Footer = () => {
         </div>
         
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-500">
-          <p>&copy; {currentYear} Ali.Design. All rights reserved.</p>
+          <p>&copy; {currentYear} Idress.Design. All rights reserved.</p>
+          <p className="mt-2 text-sm">
+            Made by <a 
+              href="https://www.facebook.com/share/16TyxwjKRy/" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-design-teal hover:text-design-purple transition-colors"
+            >
+              MA Digital Hub
+            </a>
+          </p>
         </div>
       </div>
     </footer>
