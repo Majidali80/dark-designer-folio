@@ -13,17 +13,17 @@ const projectData = [
     image: "/lovable-uploads/787d6a7c-ce2b-4d1b-8ad7-de8869c84373.png"
   },
   {
-    title: "Golf Tournament Demographics",
+    title: "Cryptocurrency Flyer",
     category: "Digital Marketing",
     image: "/lovable-uploads/ac2d43a2-fa62-4315-b5db-69c8ecdcc47f.png"
   },
   {
-    title: "CV/Resume Design",
+    title: "Golf Tournament Demographics",
     category: "Personal Branding",
     image: "/lovable-uploads/30c29be0-9436-47e1-9e0e-cad286158a1b.png"
   },
   {
-    title: "Cryptocurrency Flyer",
+    title: "Poster design",
     category: "Sports Event Design",
     image: "/lovable-uploads/364c7649-c6dc-4b62-8bd5-e914b091438d.png"
   },
