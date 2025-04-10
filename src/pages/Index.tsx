@@ -14,7 +14,7 @@ const projectData = [
     image: "/lovable-uploads/787d6a7c-ce2b-4d1b-8ad7-de8869c84373.png"
   },
   {
-    title: "Cryptocurrency Flyer",
+    title: "Golf Tournament Demographics",
     category: "Digital Marketing",
     image: "/lovable-uploads/ac2d43a2-fa62-4315-b5db-69c8ecdcc47f.png"
   },
@@ -24,7 +24,7 @@ const projectData = [
     image: "/lovable-uploads/30c29be0-9436-47e1-9e0e-cad286158a1b.png"
   },
   {
-    title: "Golf Tournament Demographics",
+    title: "Cryptocurrency Flyer",
     category: "Sports Event Design",
     image: "/lovable-uploads/364c7649-c6dc-4b62-8bd5-e914b091438d.png"
   },
@@ -65,7 +65,7 @@ const Index = () => {
               <div className="md:col-span-2">
                 <div className="relative rounded-xl overflow-hidden aspect-square opacity-0 animate-text-reveal animate-delay-1">
                   <img 
-                    src="/lovable-uploads/80f6b18d-5636-4b21-9db8-2d61f5c6b7c1.png" 
+                    src="/lovable-uploads/7261665f-f28c-41d6-9ef7-d1fbba25156a.png" 
                     alt="Idress - Graphic Designer" 
                     className="w-full h-full object-cover"
                   />
