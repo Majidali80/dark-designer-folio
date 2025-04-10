@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 import ParticleBackground from '@/components/ParticleBackground';
 import Navbar from '@/components/Navbar';
@@ -65,8 +64,8 @@ const Index = () => {
               <div className="md:col-span-2">
                 <div className="relative rounded-xl overflow-hidden aspect-square opacity-0 animate-text-reveal animate-delay-1">
                   <img 
-                    src="/lovable-uploads/7261665f-f28c-41d6-9ef7-d1fbba25156a.png" 
-                    alt="Idress - Graphic Designer" 
+                    src="/lovable-uploads/dd042d59-5158-45a9-b6dc-d5bce5b81ded.png"
+                    alt="Idrees - Graphic Designer" 
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-design-purple/70 to-transparent"></div>
@@ -75,7 +74,7 @@ const Index = () => {
               
               <div className="md:col-span-3">
                 <p className="text-lg text-gray-300 mb-6 opacity-0 animate-text-reveal animate-delay-2">
-                  Hello! I'm Idress, a passionate graphic designer with expertise in creating visual identities and digital experiences that captivate audiences and elevate brands.
+                  Hello! I'm Idrees, a passionate graphic designer with expertise in creating visual identities and digital experiences that captivate audiences and elevate brands.
                 </p>
                 
                 <p className="text-gray-400 mb-6 opacity-0 animate-text-reveal animate-delay-3">
