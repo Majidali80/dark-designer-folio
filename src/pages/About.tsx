@@ -4,7 +4,7 @@ import ParticleBackground from '@/components/ParticleBackground';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
-import { ArrowRight, Mail, Linkedin, MessageSquare } from 'lucide-react';
+import { Mail, Linkedin, MessageSquare } from 'lucide-react';
 import FiverrIcon from '@/components/FiverrIcon';
 
 const About = () => {
@@ -20,80 +20,6 @@ const About = () => {
       
       <section className="pt-32 pb-20 px-4">
         <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-8 opacity-0 animate-text-reveal">
-              About <span className="text-gradient">Me</span>
-            </h1>
-            
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-10">
-              <div className="md:col-span-2">
-                <div className="relative rounded-xl overflow-hidden aspect-square opacity-0 animate-text-reveal animate-delay-1">
-                  <img 
-                    src="/lovable-uploads/80f6b18d-5636-4b21-9db8-2d61f5c6b7c1.png" 
-                    alt="Idress - Graphic Designer" 
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-design-purple/70 to-transparent"></div>
-                </div>
-              </div>
-              
-              <div className="md:col-span-3">
-                <p className="text-lg text-gray-300 mb-6 opacity-0 animate-text-reveal animate-delay-2">
-                  Hello! I'm Idress, a passionate graphic designer with expertise in creating visual identities and digital experiences that captivate audiences and elevate brands.
-                </p>
-                
-                <p className="text-gray-400 mb-6 opacity-0 animate-text-reveal animate-delay-3">
-                  As a professional graphic designer and IT graduate with 5 years of experience, I specialize in crafting captivating visuals using tools like Photoshop, Illustrator, Canva, and AI Midjourney. My expertise spans branding, digital art, and event promotion, and I'm adept at creating designs that are both engaging and strategically aligned with client goals.
-                </p>
-                
-                <p className="text-gray-400 mb-8 opacity-0 animate-text-reveal animate-delay-3">
-                  With a strong foundation in both technical skills and creative insight, I deliver high-quality, detail-oriented designs that leave a lasting impact across various platforms and industries.
-                </p>
-                
-                <div className="grid grid-cols-2 gap-4 opacity-0 animate-text-reveal animate-delay-4">
-                  <div>
-                    <h3 className="font-bold text-xl mb-3">My Expertise</h3>
-                    <ul className="space-y-2 text-gray-300">
-                      <li className="flex items-center">
-                        <ArrowRight size={16} className="mr-2 text-design-teal" />
-                        Resume Design
-                      </li>
-                      <li className="flex items-center">
-                        <ArrowRight size={16} className="mr-2 text-design-teal" />
-                        Sports Flyer Design
-                      </li>
-                      <li className="flex items-center">
-                        <ArrowRight size={16} className="mr-2 text-design-teal" />
-                        Social Media Design
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-xl mb-3">Tools</h3>
-                    <ul className="space-y-2 text-gray-300">
-                      <li className="flex items-center">
-                        <ArrowRight size={16} className="mr-2 text-design-teal" />
-                        Adobe Creative Suite
-                      </li>
-                      <li className="flex items-center">
-                        <ArrowRight size={16} className="mr-2 text-design-teal" />
-                        Canva
-                      </li>
-                      <li className="flex items-center">
-                        <ArrowRight size={16} className="mr-2 text-design-teal" />
-                        AI Midjourney
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <section className="py-24 px-4 bg-design-dark">
-        <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Get in <span className="text-gradient">Touch</span>
@@ -107,8 +33,8 @@ const About = () => {
             <ContactCard 
               icon={<Mail size={24} />}
               title="Email"
-              info="alimajid03021980@gmail.com"
-              link="mailto:alimajid03021980@gmail.com"
+              info="idreesdahri212@gmail.com"
+              link="mailto:idreesdahri212@gmail.com"
               color="from-design-purple to-design-pink"
             />
             
@@ -116,7 +42,7 @@ const About = () => {
               icon={<MessageSquare size={24} />}
               title="WhatsApp"
               info="Direct Message"
-              link="https://wa.me/1234567890"
+              link="https://wa.me/03023222952"
               color="from-design-teal to-blue-500"
             />
             

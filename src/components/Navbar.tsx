@@ -32,13 +32,13 @@ const Navbar = () => {
     }`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="text-white font-bold text-2xl hover:opacity-80 transition-opacity">
-          <span className="text-gradient">Ali.Design</span>
+          <span className="text-gradient">Idress</span>
         </Link>
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
           <NavLink to="/" isActive={location.pathname === '/'}>Home</NavLink>
-          <NavLink to="/about" isActive={location.pathname === '/about'}>About/Contact</NavLink>
+          <NavLink to="/about" isActive={location.pathname === '/about'}>Contact</NavLink>
         </div>
         
         {/* Mobile Navigation Toggle */}
@@ -56,7 +56,7 @@ const Navbar = () => {
         <div className="md:hidden bg-design-dark/95 backdrop-blur-lg">
           <div className="flex flex-col items-center py-6 space-y-6">
             <NavLink to="/" isActive={location.pathname === '/'}>Home</NavLink>
-            <NavLink to="/about" isActive={location.pathname === '/about'}>About/Contact</NavLink>
+            <NavLink to="/about" isActive={location.pathname === '/about'}>Contact</NavLink>
           </div>
         </div>
       )}

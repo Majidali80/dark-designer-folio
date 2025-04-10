@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-gradient">Idress.Design</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gradient">Idress</h3>
             <p className="text-gray-400 mb-6">
               Creating stunning visual experiences that elevate brands and captivate audiences.
             </p>
@@ -25,7 +25,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4 text-white">Quick Links</h4>
             <ul className="space-y-2">
               <FooterLink href="/">Home</FooterLink>
-              <FooterLink href="/about">About/Contact</FooterLink>
+              <FooterLink href="/about">Contact</FooterLink>
             </ul>
           </div>
           
@@ -33,7 +33,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4 text-white">Contact</h4>
             <p className="text-gray-400 mb-2">
               <a 
-                href="https://wa.me/1234567890" 
+                href="https://wa.me/03023222952" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center hover:text-design-teal transition-colors"
@@ -46,20 +46,20 @@ const Footer = () => {
             </p>
             <p className="text-gray-400">
               <a 
-                href="mailto:alimajid03021980@gmail.com"
+                href="mailto:idreesdahri212@gmail.com"
                 className="inline-flex items-center hover:text-design-teal transition-colors"
               >
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                alimajid03021980@gmail.com
+                idreesdahri212@gmail.com
               </a>
             </p>
           </div>
         </div>
         
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-500">
-          <p>&copy; {currentYear} Idress.Design. All rights reserved.</p>
+          <p>&copy; {currentYear} Idress. All rights reserved.</p>
           <p className="mt-2 text-sm">
             Made by <a 
               href="https://www.facebook.com/share/16TyxwjKRy/" 

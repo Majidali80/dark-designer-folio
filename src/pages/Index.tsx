@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import ProjectCard from '@/components/ProjectCard';
 import Footer from '@/components/Footer';
-import { Palette } from 'lucide-react';
+import { Palette, ArrowRight } from 'lucide-react';
 
 const projectData = [
   {
@@ -16,7 +16,7 @@ const projectData = [
   {
     title: "Cryptocurrency Flyer",
     category: "Digital Marketing",
-    image: "/lovable-uploads/364c7649-c6dc-4b62-8bd5-e914b091438d.png"
+    image: "/lovable-uploads/ac2d43a2-fa62-4315-b5db-69c8ecdcc47f.png"
   },
   {
     title: "CV/Resume Design",
@@ -26,10 +26,10 @@ const projectData = [
   {
     title: "Golf Tournament Demographics",
     category: "Sports Event Design",
-    image: "/lovable-uploads/ac2d43a2-fa62-4315-b5db-69c8ecdcc47f.png"
+    image: "/lovable-uploads/364c7649-c6dc-4b62-8bd5-e914b091438d.png"
   },
   {
-    title: "Poster Design",
+    title: "CV/Resume Design",
     category: "Print Design",
     image: "/lovable-uploads/07ff252f-640c-48f4-8701-3c0e250fca1b.png"
   },
@@ -53,7 +53,82 @@ const Index = () => {
       
       <Hero />
       
+      {/* About Section */}
       <section className="relative py-24 px-4">
+        <div className="container mx-auto">
+          <div className="max-w-4xl mx-auto">
+            <h1 className="text-4xl md:text-5xl font-bold mb-8 opacity-0 animate-text-reveal text-center">
+              About <span className="text-gradient">Me</span>
+            </h1>
+            
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-10">
+              <div className="md:col-span-2">
+                <div className="relative rounded-xl overflow-hidden aspect-square opacity-0 animate-text-reveal animate-delay-1">
+                  <img 
+                    src="/lovable-uploads/80f6b18d-5636-4b21-9db8-2d61f5c6b7c1.png" 
+                    alt="Idress - Graphic Designer" 
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-design-purple/70 to-transparent"></div>
+                </div>
+              </div>
+              
+              <div className="md:col-span-3">
+                <p className="text-lg text-gray-300 mb-6 opacity-0 animate-text-reveal animate-delay-2">
+                  Hello! I'm Idress, a passionate graphic designer with expertise in creating visual identities and digital experiences that captivate audiences and elevate brands.
+                </p>
+                
+                <p className="text-gray-400 mb-6 opacity-0 animate-text-reveal animate-delay-3">
+                  As a professional graphic designer and IT graduate with 5 years of experience, I specialize in crafting captivating visuals using tools like Photoshop, Illustrator, Canva, and AI Midjourney. My expertise spans branding, digital art, and event promotion, and I'm adept at creating designs that are both engaging and strategically aligned with client goals.
+                </p>
+                
+                <p className="text-gray-400 mb-8 opacity-0 animate-text-reveal animate-delay-3">
+                  With a strong foundation in both technical skills and creative insight, I deliver high-quality, detail-oriented designs that leave a lasting impact across various platforms and industries.
+                </p>
+                
+                <div className="grid grid-cols-2 gap-4 opacity-0 animate-text-reveal animate-delay-4">
+                  <div>
+                    <h3 className="font-bold text-xl mb-3">My Expertise</h3>
+                    <ul className="space-y-2 text-gray-300">
+                      <li className="flex items-center">
+                        <ArrowRight size={16} className="mr-2 text-design-teal" />
+                        Resume Design
+                      </li>
+                      <li className="flex items-center">
+                        <ArrowRight size={16} className="mr-2 text-design-teal" />
+                        Sports Flyer Design
+                      </li>
+                      <li className="flex items-center">
+                        <ArrowRight size={16} className="mr-2 text-design-teal" />
+                        Social Media Design
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-xl mb-3">Tools</h3>
+                    <ul className="space-y-2 text-gray-300">
+                      <li className="flex items-center">
+                        <ArrowRight size={16} className="mr-2 text-design-teal" />
+                        Adobe Creative Suite
+                      </li>
+                      <li className="flex items-center">
+                        <ArrowRight size={16} className="mr-2 text-design-teal" />
+                        Canva
+                      </li>
+                      <li className="flex items-center">
+                        <ArrowRight size={16} className="mr-2 text-design-teal" />
+                        AI Midjourney
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section className="relative py-24 px-4 bg-design-dark">
         <div className="container mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 opacity-0 animate-text-reveal" style={{ animationDelay: '0.1s' }}>
@@ -78,7 +153,7 @@ const Index = () => {
         </div>
       </section>
       
-      <section className="relative py-24 px-4 bg-design-dark">
+      <section className="relative py-24 px-4">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-8">
