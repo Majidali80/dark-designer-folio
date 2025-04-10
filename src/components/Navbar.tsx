@@ -32,7 +32,7 @@ const Navbar = () => {
     }`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="text-white font-bold text-2xl hover:opacity-80 transition-opacity">
-          <span className="text-gradient">Idress</span>
+          <span className="text-gradient">Idrees</span>
         </Link>
         
         {/* Desktop Navigation */}
